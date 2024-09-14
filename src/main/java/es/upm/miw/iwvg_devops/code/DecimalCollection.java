@@ -19,6 +19,8 @@ public class DecimalCollection {
         return this.collection.size();
     }
 
+
+
     public double sum() {
         double sum = Double.NaN;
         for (double item : this.collection) {
